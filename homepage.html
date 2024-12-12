@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Cancer Society Homepage </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<header>
+  <div id ="logo"> 
+      <img src="https://www.acsresources.org/wp-content/uploads/2024/07/ACS_RGB.png" alt= "ACS logo"> </div>
+      <h1> American Cancer Society</h1>
+<nav>
+<ul>
+  <li><a href= "#Home"> Homepage</a></li>
+  <li><a href="#about">About</a></li>
+  <li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+<div id="Search">
+  <input type="text" paceholder = "search">
+  <button> Search</button>
+</div>
+</header>
+
+
+
+<main>
+    <section class="introduction">
+        <h2>Every cancer. Every life.</h2>
+        <p>We are a leading cancer-fighting organization with a vision to end cancer as we know it, 
+            for everyone. We are improving the lives of people with cancer and their families as the 
+            only organization combating cancer through advocacy, research, and patient support, to 
+            ensure that everyone has an opportunity to prevent, detect, treat, and survive cancer.</p>
+        </section>
+
+
+    <section id="donate">
+      <h2>Ways to Give: Donate Today!</h2>
+      <p>Your contribution helps us continue our mission. Donate now to make a difference!</p>
+    </section>
+  
+    <section class="resources">
+
+        <h2>Cancer Information and Resources</h2>
+        <p>
+            1 in 2 men and 1 in 3 women will be diagnosed with cancer in their lifetime. 
+            If you've been recently diagnosed, or know someone who has, we're here with 
+            answers, guidance, and support.
+        </p>
+      <ul>
+          <li>Understanding Cancer</li>
+          <li>Managing Cancer Care</li>
+          <li>Survivorship</li>
+          <li>Caregivers & Family</li>
+          <li>Find Support & Resources</li>
+       </ul>
+
+    </section>
+
+    <section class="stories">
+
+      <h2>Cancer Stories</h2>
+      <p>
+        Sharing stories is our way of inspiring hope and raising awareness. Read stories 
+        of real people who have survived cancer and the positive impact the American Cancer Society 
+        had on their cancer journey and hear from those who are making a difference in the lives of 
+        people with cancer and their families. 
+      </p>
+
+    </section>
+
+
+
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+     
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="Rick_Story.jpg" style="width:100%">
+      <div class="text">Rick's Story <br> Colon & Kidney Cancer Survivor</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="Curtis_Story.jpg" style="width:100%">
+      <div class="text">Dr. Miyamoto's  Story <br> Associate Director for Clinical Services </div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="Jamil_Story.jpg" style="width:100%">
+      <div class="text">Jamil's Story <br> Metastatic Breast Cancer Thriver</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</main>
+</html>
