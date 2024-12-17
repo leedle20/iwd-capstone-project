@@ -43,22 +43,13 @@ nav ul li {
 }
 
 nav a {
-    color:#FF3C96;
-    text-decoration: none;
-}
-
-nav a:visited {
-    color:#FF3C96;
+  color: #FF3C96; /* Pink color for the text */
+  text-decoration: none;
 }
 
 nav a:active, nav a:focus {
-    color: black; /* Turns black when clicked */
-    outline: none; /* Removes outline */
-}
-
-nav a::selection { 
-    background: none; /* Removes text highlight background */
-    color: inherit; /* Keeps text color as it is */
+  color: black; /* Black color when clicked */
+  outline: none; /* Removes outline */
 }
 
 main {
