@@ -43,14 +43,17 @@ nav ul li {
 }
 
 nav a {
-  color: #FF3C96; /* Pink color for the text */
+  color: #FF3C96; /* Pink color */
   text-decoration: none;
+  font-weight: bold; 
+ 
 }
 
 nav a:active, nav a:focus {
-  color: black; /* Black color when clicked */
-  outline: none; /* Removes outline */
+  background-color:white;
+  outline: none; 
 }
+
 
 main {
   margin: 20px auto;
