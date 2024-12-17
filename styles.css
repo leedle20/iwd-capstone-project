@@ -43,23 +43,22 @@ nav ul li {
 }
 
 nav a {
-    color: #FF3C96; /* Default pink color */
-    text-decoration: none; /* Removes underline */
+    color:#FF3C96;
+    text-decoration: none;
 }
 
 nav a:visited {
-    color: #FF3C96; /* Keeps visited links pink */
+    color:#FF3C96;
 }
 
-nav a:active,
-nav a:focus,
-nav a:hover {
-    color: #000; /* Turns text black when clicked or hovered */
-    outline: none; /* Removes focus outline or highlight */
+nav a:active, nav a:focus {
+    color: black; /* Turns black when clicked */
+    outline: none; /* Removes outline */
 }
 
-nav a.active {
-    color: #000; /* Keeps text black after clicking */
+nav a::selection { 
+    background: none; /* Removes text highlight background */
+    color: inherit; /* Keeps text color as it is */
 }
 
 main {
